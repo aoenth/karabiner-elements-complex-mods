@@ -1,6 +1,6 @@
 # Karabiner Elements Custom Complex Modifications
 List of modifications done to the standard Dvorak Keyboard Layout
-## Modifications
+## Current Modifications
 * CMD+J to CMD+C
 * CMD+K to CMD+V 
 * CMD+Q to CMD+X
