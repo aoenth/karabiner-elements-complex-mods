@@ -1,0 +1,117 @@
+{
+  "title": "Dvorak-CmdCV",
+  "rules": [
+    {
+      "description": "Remap keys to use Dvorak-CmdCVkeyboard layout",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "j",
+            "modifiers": {
+              "mandatory": [
+                "left_command"
+              ],
+              "optional": [
+                "caps_lock"
+              ]
+            }
+          },
+          "to": [
+            {
+              "modifiers": [
+                "left_command"
+              ],
+              "key_code": "c"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "k",
+            "modifiers": {
+              "mandatory": [
+                "left_command"
+              ],
+              "optional": [
+                "caps_lock"
+              ]
+            }
+          },
+          "to": [
+            {
+              "modifiers": [
+                "left_command"
+              ],
+              "key_code": "v"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "q",
+            "modifiers": {
+              "mandatory": [
+                "left_command"
+              ],
+              "optional": [
+                "caps_lock"
+              ]
+            }
+          },
+          "to": [
+            {
+              "modifiers": [
+                "left_command"
+              ],
+              "key_code": "x"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "quote",
+            "modifiers": {
+              "mandatory": [
+                "left_command"
+              ]
+            }
+          },
+          "to": [
+            {
+              "modifiers": [
+                "left_command"
+              ],
+              "key_code": "q"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "semicolon",
+            "modifiers": {
+              "mandatory": [
+                "left_command"
+              ],
+              "optional": [
+                "caps_lock"
+              ]
+            }
+          },
+          "to": [
+            {
+              "modifiers": [
+                "left_command"
+              ],
+              "key_code": "z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
