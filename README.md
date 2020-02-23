@@ -18,7 +18,7 @@ List of modifications for the standard Dvorak Keyboard Layout.
 ![](README_files/screenshot.png)
 
 ## Modifications for Software Dvorak Keyboards
-Applicable to Macs using the "Dvorak Keyboard Layout" ![](README_files/dv_icon.png), the resulting key would remap into Dvorak on the system level.
+Applicable to Macs using the "Dvorak Keyboard Layout" ![](README_files/dv_icon.png), the "Remapped Input"s would re-remap into Dvorak on the system level.
 
 | Apparent Input | Remapped Input | Resulting Input |
 |----------------|----------------|-----------------|
