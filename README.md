@@ -1,5 +1,5 @@
 # Karabiner Elements Custom Complex Modifications
-List of modifications for the standard Dvorak Keyboard Layout
+List of modifications for the standard Dvorak Keyboard Layout.
 
 ## Get Started
 
@@ -12,9 +12,9 @@ List of modifications for the standard Dvorak Keyboard Layout
 /Users/{username}/.config/karabiner/assets/complex_modifications
 ```
 
-3. ```git clone``` into this folder or simply copy the json files into this folder
+3. ```git clone``` into this folder or simply copy the json files into this folder.
 
-4. Start Karabiner-Elements and navigate to "Complex Modifications", click "Add Rule" and enable the rules you want to add
+4. Start Karabiner-Elements and navigate to "Complex Modifications", click "Add Rule" and enable the rules you want to add.
 ![](README_files/screenshot.png)
 
 ## Modifications for Software Dvorak Keyboards
@@ -25,16 +25,16 @@ Applicable to Macs using the "Dvorak Keyboard Layout" ![](README_files/dv_icon.p
 | ⌘ J            | ⌘ I            | ⌘ C             |
 | ⌘ K            | ⌘ . (Period)   | ⌘ V             |
 | ⌘ Q            | ⌘ B            | ⌘ X             |
-| ⌘ ;            | ⌘ / (Slash)    | ⌘ Z             |
-| ⌘ '            | ⌘ X            | ⌘ Q             |
+| ⌘ ; (Semicolon)| ⌘ / (Slash)    | ⌘ Z             |
+| ⌘ ' (Quote)    | ⌘ X            | ⌘ Q             |
 
 ## Modifications for Hardware Dvorak Keyboards
-Applicable to Macs using the standard QWERTY layout, but the keyboard remaps keystrokes to Dvorak on the hardware level
+Applicable to Macs using the standard QWERTY layout, but the keyboard remaps keystrokes to Dvorak on the hardware level.
 
 | Apparent Input | Resulting Input |
 |----------------|-----------------|
 | ⌘ J            | ⌘C              |
 | ⌘ K            | ⌘V              |
 | ⌘ Q            | ⌘X              |
-| ⌘ ;            | ⌘Z              |
-| ⌘ '            | ⌘Q              |
+| ⌘ ; (Semicolon)| ⌘Z              |
+| ⌘ ' (Quote)    | ⌘Q              |
