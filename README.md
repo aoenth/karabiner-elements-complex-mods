@@ -31,10 +31,10 @@ Applicable to Macs using the "Dvorak Keyboard Layout" ![](README_files/dv_icon.p
 ## Modifications for Hardware Dvorak Keyboards
 Applicable to Macs using the standard QWERTY layout, but the keyboard remaps keystrokes to Dvorak on the hardware level.
 
-| Apparent Input | Resulting Input |
-|----------------|-----------------|
-| ⌘ J            | ⌘C              |
-| ⌘ K            | ⌘V              |
-| ⌘ Q            | ⌘X              |
-| ⌘ ; (Semicolon)| ⌘Z              |
-| ⌘ ' (Quote)    | ⌘Q              |
+| Apparent Input | Remapped and Resulting Input |
+|----------------|------------------------------|
+| ⌘ J            | ⌘C                           |
+| ⌘ K            | ⌘V                           |
+| ⌘ Q            | ⌘X                           |
+| ⌘ ; (Semicolon)| ⌘Z                           |
+| ⌘ ' (Quote)    | ⌘Q                           |
