@@ -20,16 +20,21 @@ List of modifications for the standard Dvorak Keyboard Layout
 ## Modifications for Software Dvorak Keyboards
 Applicable to Macs using the "Dvorak Keyboard Layout" ![](README_files/dv_icon.png), the resulting key would remap into Dvorak on the system level.
 
-* CMD+J to CMD+I
-* CMD+K to CMD+PEROID(.) 
-* CMD+Q to CMD+B
-* CMD+; to CMD+SLASH(/)
-* CMD+' to CMD+X
+| Apparent Input | Remapped Input | Resulting Input |
+|----------------|----------------|-----------------|
+| ⌘ J            | ⌘ I            | ⌘ C             |
+| ⌘ K            | ⌘ . (Period)   | ⌘ V             |
+| ⌘ Q            | ⌘ B            | ⌘ X             |
+| ⌘ ;            | ⌘ / (Slash)    | ⌘ Z             |
+| ⌘ '            | ⌘ X            | ⌘ Q             |
 
 ## Modifications for Hardware Dvorak Keyboards
 Applicable to Macs using the standard QWERTY layout, but the keyboard remaps keystrokes to Dvorak on the hardware level
-* CMD+J to CMD+C
-* CMD+K to CMD+V 
-* CMD+Q to CMD+X
-* CMD+; to CMD+Z
-* CMD+' to CMD+Q
+
+| Apparent Input | Resulting Input |
+|----------------|-----------------|
+| ⌘ J            | ⌘C              |
+| ⌘ K            | ⌘V              |
+| ⌘ Q            | ⌘X              |
+| ⌘ ;            | ⌘Z              |
+| ⌘ '            | ⌘Q              |
