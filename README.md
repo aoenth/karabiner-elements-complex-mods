@@ -33,11 +33,11 @@ Applicable to Macs using the standard QWERTY layout, but the keyboard remaps key
 
 | Apparent Input | Remapped and Resulting Input |
 |----------------|------------------------------|
-| ⌘ J            | ⌘C                           |
-| ⌘ K            | ⌘V                           |
-| ⌘ Q            | ⌘X                           |
-| ⌘ ; (Semicolon)| ⌘Z                           |
-| ⌘ ' (Quote)    | ⌘Q                           |
+| ⌘ J            | ⌘ C                           |
+| ⌘ K            | ⌘ V                           |
+| ⌘ Q            | ⌘ X                           |
+| ⌘ ; (Semicolon)| ⌘ Z                           |
+| ⌘ ' (Quote)    | ⌘ Q                           |
 
 ### Directional Navigation for Hardware Dvorak Keyboards
 | Apparent Input | Remapped and Resulting Input | Function          |
