@@ -2,7 +2,7 @@
   "title": "Undo/Cut/Copy/Paste",
   "rules": [
     {
-      "description": "Undo/Cut/Copy/Paste for Hardware Dvorak Keyboard",
+      "description": "Undo/Cut/Copy/Paste for Hardware Dvorak Keyboards",
       "manipulators": [
         {
           "type": "basic",
