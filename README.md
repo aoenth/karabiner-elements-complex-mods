@@ -40,6 +40,7 @@ Applicable to Macs using the standard QWERTY layout, but the keyboard remaps key
 | ⌘ ' (Quote)    | ⌘ Q                           |
 
 ### Directional Navigation for Hardware Dvorak Keyboards
+Applicable to Macs using the standard QWERTY layout, but the keyboard remaps keystrokes to Dvorak on the hardware level. Ignores remaps when using Terminal.
 | Apparent Input | Remapped and Resulting Input | Function          |
 |----------------|------------------------------|-------------------|
 | ^ E            | ⌘ Right Arrow                | End of Line       |
