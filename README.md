@@ -38,3 +38,17 @@ Applicable to Macs using the standard QWERTY layout, but the keyboard remaps key
 | ⌘ Q            | ⌘X                           |
 | ⌘ ; (Semicolon)| ⌘Z                           |
 | ⌘ ' (Quote)    | ⌘Q                           |
+
+### Directional Navigation for Hardware Dvorak Keyboards
+| Apparent Input | Remapped and Resulting Input | Function          |
+|----------------|------------------------------|-------------------|
+| ^ E            | ⌘ Right Arrow                | End of Line       |
+| ^ A            | ⌘ Left Arrow                 | Beginning of Line |
+| ^ P            | Up Arrow                     | Previous Line     |
+| ^ N            | Down Arrow                   | Next Line         |
+| ^ F            | Right Arrow                  | Next Character    |
+| ^ B            | Left Arrow                   | Previous Character|
+| ⌥ F            | ⌥ Right Arrow                | Next Word         |
+| ⌥ B            | ⌥ Left Arrow                 | Previous Word     |
+| Home           | ⌘ Left Arrow                 | Beginning of Line |
+| End            | ⌘ Right Arrow                | End of Line       |
