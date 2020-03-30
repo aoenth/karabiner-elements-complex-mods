@@ -1,8 +1,8 @@
 {
-  "title": "Dvorak CMD+ZXCV",
+  "title": "Undo/Cut/Copy/Paste",
   "rules": [
     {
-      "description": "Remap CMD+ZXCV keys for Hardware Dvorak Keyboard",
+      "description": "Undo/Cut/Copy/Paste for Hardware Dvorak Keyboard",
       "manipulators": [
         {
           "type": "basic",

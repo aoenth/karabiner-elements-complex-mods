@@ -1,8 +1,8 @@
 {
-  "title": "Control Keys",
+  "title": "Navigation",
   "rules": [
     {
-      "description": "Remap navigation keys for Hardware Dvorak Keyboard",
+      "description": "New Directional Navigation for Hardware Dvorak Keyboards",
       "manipulators": [
         {
           "type": "basic",

@@ -1,8 +1,8 @@
 {
-  "title": "Home End Keys",
+  "title": "Navigation",
   "rules": [
     {
-      "description": "Remap Home and End keys",
+      "description": "Home/End for Hardware and Software Dvorak Keyboards",
       "manipulators": [
         {
           "type": "basic",
