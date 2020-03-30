@@ -17,7 +17,9 @@ List of modifications for the standard Dvorak Keyboard Layout.
 4. Start Karabiner-Elements and navigate to "Complex Modifications", click "Add Rule" and enable the rules you want to add.
 ![](README_files/screenshot.png)
 
-## Modifications for Software Dvorak Keyboards
+## Undo/Cut/Copy/Paste for Software Dvorak Keyboards
+* `dvorak_cmd_zxcv_software_keyboard.json`
+
 Applicable to Macs using the "Dvorak Keyboard Layout" ![](README_files/dv_icon.png), the "Remapped Input"s would re-remap into Dvorak on the system level.
 
 | Apparent Input | Remapped Input | Resulting Input |
@@ -28,7 +30,9 @@ Applicable to Macs using the "Dvorak Keyboard Layout" ![](README_files/dv_icon.p
 | ⌘ ; (Semicolon)| ⌘ / (Slash)    | ⌘ Z             |
 | ⌘ ' (Quote)    | ⌘ X            | ⌘ Q             |
 
-## Modifications for Hardware Dvorak Keyboards
+## Undo/Cut/Copy/Paste for Hardware Dvorak Keyboards
+* `dvorak_cmd_zxcv_hardware_keyboard.json`
+
 Applicable to Macs using the standard QWERTY layout, but the keyboard remaps keystrokes to Dvorak on the hardware level.
 
 | Apparent Input | Remapped and Resulting Input |
@@ -39,7 +43,9 @@ Applicable to Macs using the standard QWERTY layout, but the keyboard remaps key
 | ⌘ ; (Semicolon)| ⌘ Z                           |
 | ⌘ ' (Quote)    | ⌘ Q                           |
 
-### Directional Navigation for Hardware Dvorak Keyboards
+## Directional Navigation for Hardware Dvorak Keyboards
+* `control_keys_hardware_keyboard.json`
+
 Applicable to Macs using the standard QWERTY layout, but the keyboard remaps keystrokes to Dvorak on the hardware level. Ignores remaps when using Terminal.
 | Apparent Input | Remapped and Resulting Input | Function          |
 |----------------|------------------------------|-------------------|
@@ -51,5 +57,28 @@ Applicable to Macs using the standard QWERTY layout, but the keyboard remaps key
 | ^ B            | Left Arrow                   | Previous Character|
 | ⌥ F            | ⌥ Right Arrow                | Next Word         |
 | ⌥ B            | ⌥ Left Arrow                 | Previous Word     |
+
+## Home/End for Hardware and Software Dvorak Keyboards
+* `home_end.json`
+
+Applicable to Macs using the standard QWERTY layout, but the keyboard remaps keystrokes to Dvorak on the hardware level. Ignores remaps when using Terminal.
+
+| Apparent Input | Remapped and Resulting Input | Function          |
+|----------------|------------------------------|-------------------|
 | Home           | ⌘ Left Arrow                 | Beginning of Line |
 | End            | ⌘ Right Arrow                | End of Line       |
+
+## New Directional Navigation for Hardware Dvorak Keyboards
+* `new_control_keys_hardware_keyboard.json`
+
+Applicable to Macs using the standard QWERTY layout, but the keyboard remaps keystrokes to Dvorak on the hardware level. Ignores remaps when using Terminal.
+| Apparent Input | Remapped and Resulting Input | Function          |
+|----------------|------------------------------|-------------------|
+| ^ H            | Up Arrow                     | Previous Line     |
+| ^ T            | Down Arrow                   | Next Line         |
+| ^ N            | Left Arrow                   | Previous Character|
+| ^ S            | Right Arrow                  | Next Character    |
+| ⌥ N            | ⌥ Left Arrow                 | Previous Word     |
+| ⌥ S            | ⌥ Right Arrow                | Next Word         |
+| ^ Enter        | ⌘ Right Arrow                | End of Line       |
+| ⌥ Enter        | ⌘ Left Arrow                 | Beginning of Line |
