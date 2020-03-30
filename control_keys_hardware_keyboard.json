@@ -231,64 +231,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "home",
-            "modifiers": {
-              "optional": [
-                "caps_lock",
-                "left_shift",
-                "right_shift"
-              ]
-            }
-          },
-          "to": [
-            {
-              "modifiers": [
-                "left_command"
-              ],
-              "key_code": "left_arrow"
-            }
-          ],
-          "conditions": [
-            {
-              "type": "frontmost_application_unless",
-              "bundle_identifiers": [
-                "com.apple.Terminal"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "end",
-            "modifiers": {
-              "optional": [
-                "caps_lock",
-                "left_shift",
-                "right_shift"
-              ]
-            }
-          },
-          "to": [
-            {
-              "modifiers": [
-                "left_command"
-              ],
-              "key_code": "right_arrow"
-            }
-          ],
-          "conditions": [
-            {
-              "type": "frontmost_application_unless",
-              "bundle_identifiers": [
-                "com.apple.Terminal"
-              ]
-            }
-          ]
         }
       ]
     }
