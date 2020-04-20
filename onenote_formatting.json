@@ -1,0 +1,122 @@
+{
+  "title": "Microsoft OneNote Remaps",
+  "rules": [
+    {
+      "description": "OneNote: Formatting Hotkeys for Hardware and Software Dvorak Keyboards",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f1",
+            "modifiers": {
+              "optional": [
+                "caps_lock"
+              ]
+            }
+          },
+          "to": [
+            {
+              "modifiers": [
+                "left_command",
+                "left_option"
+              ],
+              "key_code": "1"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "com.apple.Terminal"
+              ]
+            }
+          ]
+        },
+                {
+          "type": "basic",
+          "from": {
+            "key_code": "f2",
+            "modifiers": {
+              "optional": [
+                "caps_lock"
+              ]
+            }
+          },
+          "to": [
+            {
+              "modifiers": [
+                "left_command",
+                "left_option"
+              ],
+              "key_code": "2"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "com.apple.Terminal"
+              ]
+            }
+          ]
+        },
+                {
+          "type": "basic",
+          "from": {
+            "key_code": "f3",
+            "modifiers": {
+              "optional": [
+                "caps_lock"
+              ]
+            }
+          },
+          "to": [
+            {
+              "modifiers": [
+                "left_command",
+                "left_option"
+              ],
+              "key_code": "3"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "com.apple.Terminal"
+              ]
+            }
+          ]
+        },
+                {
+          "type": "basic",
+          "from": {
+            "key_code": "f4",
+            "modifiers": {
+              "optional": [
+                "caps_lock"
+              ]
+            }
+          },
+          "to": [
+            {
+              "modifiers": [
+                "left_command",
+                "left_option"
+              ],
+              "key_code": "4"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "com.apple.Terminal"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
